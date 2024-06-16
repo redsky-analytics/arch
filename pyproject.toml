@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "logging"
+name = "arch"
 version = "0.1.0"
 description = ""
 authors = ["Julian Mulla <jmulla@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.6<4"
 
 
 [build-system]
