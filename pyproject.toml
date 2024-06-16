@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "streamarch"
-version = "v0.7.6"
+version = "v0.7.7"
 description = ""
 authors = ["Nate Smith <nate@cloudcrestgroup.com>"]
 readme = "README.md"
