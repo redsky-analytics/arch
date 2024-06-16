@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "arch"
+name = "streamarch"
 version = "v0.7.4-alpha"
 description = ""
 authors = ["Julian Mulla <jmulla@gmail.com>"]
