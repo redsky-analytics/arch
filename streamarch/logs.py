@@ -11,7 +11,6 @@ def setup_logging(target):
     with open(config_file) as f_in:
         config = json.load(f_in)
 
-    print(config.keys())
     config['handlers']['file_json']['filename'] = target
 
     Path(target).parent.mkdir(parents=True, exist_ok=True)
