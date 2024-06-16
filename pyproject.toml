@@ -6,7 +6,7 @@ authors = ["Julian Mulla <jmulla@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.6<4"
+python = "^3.6 || ^3.7 || ^3.8 || ^3.9 || ^3.10 || ^3.11 || ^3.12"
 
 
 [build-system]
