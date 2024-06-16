@@ -14,5 +14,6 @@ jobs:
         uses: code-specialist/pypi-poetry-publish@v1
         with:
           BRANCH: main
+          POETRY_VERSION: 1.8.2
           ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
           PUBLISH_REGISTRY_PASSWORD: ${{ secrets.PYPI_TOKEN }}
